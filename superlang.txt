@@ -1,0 +1,7 @@
+while i < p {
+    get i
+
+    get t
+
+    print("p is greater than i")
+}

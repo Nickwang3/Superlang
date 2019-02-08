@@ -74,12 +74,13 @@ void read_file(const char file_name[]) {
             int len = get_string_size(current_word);
 
             if (len!=0) {
-                printf("%s\n", current_word);
+                printf("%s", current_word);
                 clear_string(current_word);
                 index = 0;
                 continue;
             }
             index = 0;
+            printf("%d\n", len);
         }
 
         if (is_valid_char(c)) {           
